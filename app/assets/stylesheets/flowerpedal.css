@@ -1,0 +1,160 @@
+#header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+#nav {
+  line-height: 30px;
+  background-color: #eeeeee;
+  height: 300px;
+  width: 100px;
+  float: left;
+  padding: 5px;
+}
+#section {
+  width: 350px;
+  float: left;
+  padding: 10px;
+}
+#footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+.rect.raindrop {
+  background: lightblue;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  border-left: 0px solid transparent;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+}
+.raindrop.sm {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+}
+.raindrop.lg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+}
+.rect.raindrop.green {
+  background: lightgreen;
+}
+.rect.raindrop.yellow {
+  background: yellow;
+}
+.rect.raindrop.orange {
+  background: orange;
+}
+.rect.raindrop.teal {
+  background: teal;
+}
+.rect.raindrop.pink {
+  background: pink;
+}
+.rect.raindrop:nth-child(1)
+/* yellow */
+
+{
+  transform: rotate(-76deg) skewX(-12deg) skewY(-4deg);
+  -webkit-transform: rotate(-76deg) skewX(-12deg) skewY(-4deg);
+  -moz-transform: rotate(-76deg) skewX(-12deg) skewY(-4deg);
+  -o-transform: rotate(-76deg) skewX(-12deg) skewY(-4deg);
+  -ms-transform: rotate(-76deg) skewX(-12deg) skewY(-4deg);
+  top: 149px;
+  left: 169px;
+}
+.rect.raindrop:nth-child(2)
+/* blue */
+
+{
+  transform: rotate(-148deg) skewX(-12deg) skewY(-4deg);
+  -webkit-transform: rotate(-148deg) skewX(-12deg) skewY(-4deg);
+  -moz-transform: rotate(-148deg) skewX(-12deg) skewY(-4deg);
+  -o-transform: rotate(-148deg) skewX(-12deg) skewY(-4deg);
+  -ms-transform: rotate(-148deg) skewX(-12deg) skewY(-4deg);
+  top: 91px;
+  left: 198px;
+}
+.rect.raindrop:nth-child(3)
+/* orange */
+
+{
+  transform: rotate(-220deg) skewX(-12deg) skewY(-4deg);
+  -webkit-transform: rotate(-220deg) skewX(-12deg) skewY(-4deg);
+  -moz-transform: rotate(-220deg) skewX(-12deg) skewY(-4deg);
+  -o-transform: rotate(-220deg) skewX(-12deg) skewY(-4deg);
+  -ms-transform: rotate(-220deg) skewX(-12deg) skewY(-4deg);
+  top: 46px;
+  left: 151px;
+}
+.rect.raindrop:nth-child(4)
+/* pink */
+
+{
+  transform: rotate(-292deg) skewX(-12deg) skewY(-4deg);
+  -webkit-transform: rotate(-292deg) skewX(-12deg) skewY(-4deg);
+  -moz-transform: rotate(-292deg) skewX(-12deg) skewY(-4deg);
+  -o-transform: rotate(-292deg) skewX(-12deg) skewY(-4deg);
+  -ms-transform: rotate(-292deg) skewX(-12deg) skewY(-4deg);
+  top: 78px;
+  left: 94px;
+}
+.rect.raindrop:nth-child(5)
+/* blue */
+
+{
+  transform: rotate(-4deg) skewX(-12deg) skewY(-4deg);
+  -webkit-transform: rotate(-4deg) skewX(-12deg) skewY(-4deg);
+  -moz-transform: rotate(-4deg) skewX(-12deg) skewY(-4deg);
+  -o-transform: rotate(-4deg) skewX(-12deg) skewY(-4deg);
+  -ms-transform: rotate(-4deg) skewX(-12deg) skewY(-4deg);
+  top: 142px;
+  left: 104px;
+}
+.rec.raindrop::selection {
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 180px;
+  }
+}
