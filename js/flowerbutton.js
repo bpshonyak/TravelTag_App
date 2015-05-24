@@ -10,8 +10,6 @@ $(document).ready(function() {
 
     var button = "<div id='" + buttonID +"'></div>";
 
-    tagNumb++;
-
     $("#canvas").append(button);
 
     var circleControl = new CircleControl({
@@ -54,7 +52,7 @@ $(document).ready(function() {
       });
 
     $("#"+buttonID).css({
-      position: "",
+      position: "fixed",
       top : event.pageY,
       left : event.pageX
     });
