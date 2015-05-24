@@ -54,7 +54,7 @@ $(document).ready(function() {
       });
 
     $("#"+buttonID).css({
-      position:"fixed",
+      position: "absolute",
       top : event.pageY,
       left : event.pageX
     });
