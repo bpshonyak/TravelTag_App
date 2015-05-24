@@ -57,6 +57,11 @@
 	 float: left;
 }
 
+.social {
+	margin-right: 9px;
+	margin-top: -10px;
+}
+
 .dropdown{
 	margin-bottom: 20px;
 	margin-right: 20px;
