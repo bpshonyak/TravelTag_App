@@ -1,10 +1,14 @@
+<div class="center jumbotron">
+    <p id="notice"><%= notice %></p>
+    <h1 class="center" style="text-align: center">Life Feed</h1>
 
-
-
-<div class="drops">
-    <div class="rect raindrop yellow"></div>
-    <div class="rect raindrop"></div>
-    <div class="rect raindrop orange"></div>
-    <div class="rect raindrop pink"></div>
-    <div class="rect raindrop tel"></div>
+    <% if user_signed_in? %>
+      <li>
+      <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
+      </li>
+    <% else %>
+      <li>
+      <%= link_to 'Login', new_user_session_path %>
+      </li>
+    <% end %>
 </div>
