@@ -1,4 +1,5 @@
-# TravelTag_App
-CodeDay Project
+# TravelTag
 
-(TravelTag)['http://bpshonyak.github.io/TravelTag_App/']
+**_CodeDay Project_**
+
+[Live URL](http://bpshonyak.github.io/TravelTag_App/)
