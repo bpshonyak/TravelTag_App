@@ -1,6 +1,16 @@
-.imgpanel#img0 {
-  width: 60vw;
-  height: 30vw;
-  top: 50vw;
-  left: 50vw;
+.imgpanel {
+  width: 63vw;
+  height: 36vw;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 45px;
+  border: 9px solid #ecf0f1;
+  background-size: 100% 100%;
+}
+
+body {
+  margin: 4.5vw 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #2ecc71;
 }
